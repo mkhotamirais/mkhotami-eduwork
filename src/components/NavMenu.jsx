@@ -50,7 +50,7 @@ export const NavMenuCollapse = ({ menus }) => {
   return (
     <div
       onClick={(e) => e.stopPropagation()}
-      className={`${openNav ? "h-40 border-b py-3" : "h-0 py-0 border-none"} ${
+      className={`${openNav ? "z-50 h-40 border-b py-3" : "h-0 py-0 border-none"} ${
         isDark ? "bg-slate-800 text-white" : "bg-white"
       } block sm:hidden rounded overflow-hidden transition-all duration-100 px-3 sticky top-16`}
     >
