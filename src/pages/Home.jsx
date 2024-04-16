@@ -5,6 +5,10 @@ const taskStatic = [
   { title: "task-bootstrap", url: "../web-static/tugas2-bootstrap/index.html" },
   { title: "task-javascript", url: "../web-static/tugas3-jsbasic/index.html" },
   { title: "task-oop", url: "../web-static/tugas4-miniLibrary/index.html" },
+  { title: "task-jsonplaceholder", url: "https://panduan-public-apis.vercel.app/jsonplaceholder" },
+  { title: "task-newsapi", url: "https://panduan-public-apis.vercel.app/newsapi" },
+  { title: "task-sisko", url: "https://panduan-public-apis.vercel.app/sisko" },
+  { title: "task-ecommerce", url: "https://github.com/mkhotamirais/mkhotami-mern-eduwork" },
 ];
 
 const Home = () => {
